@@ -1,0 +1,48 @@
+.block{
+   display: block;
+   height: 50vh;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+body{
+    background-color: beige;
+}
+h1{
+    font-size: 75px;
+    font-family: MODERNIZ;
+    color: beige;
+    font-style: italic;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border: 2px solid black;
+}
+a:visited{
+    color:black;
+}
+.a1, .a2, .a3, .a4{
+    text-decoration: none;
+    color: black;
+    font-family: Supreme;
+}
+h2{
+    font-family: Britannic;
+    text-align: center;
+    margin:10px;
+}
+p{
+    font-family: Arial;
+}
+.divider{
+    display: block;
+    background-color: black;
+    height:2px;
+    width: 100%;
+}
